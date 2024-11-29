@@ -221,7 +221,7 @@ for character in "hello":
 # (if there are any arguments you need to accept otherwise you simply open and close brackets)
 
 # The other important part of a function is that it may or may not contain the return keyword
-# all the return keywork does is send back some data to whatever called the function.
+# all the return keyword does is send back some data to whatever called the function.
 
 # let's create a program which defines a function that takes a list of fruits and counts how many we have that demonstrates these principles
 
@@ -231,7 +231,7 @@ def count_fruits(fruit_basket):
     for _ in fruit_basket: #the underscore here means we don't care about the variable for a singular fruit because we don't care about it
         # if we defined index = 0 here as its starting point, we would constantly be setting it to 0 when the loop starts to the next iteration
         index += 1
-    return index
+    return index #return the value of our index variable back to whatever called this function. In this instance it's a print function so the value will be printed
 
 fruits = ['Apple', 'Orange']
 fruits.append('Strawberry')
