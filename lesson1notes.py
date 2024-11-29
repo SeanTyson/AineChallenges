@@ -9,8 +9,8 @@
 
 # ******* VARIABLES AND TYPES *******
 
-# Variables are data that you may or may not know the value of. They are stored in memory. 
-# Think of them as a box containing value, which has a name you can use to reference the value!
+# Variables are data that you may or may not know the value of. They are stored in memory.
+# Think of them as a box containing a value, which has a name you can use to reference the value!
 
 '''
 i_am_a_variable = "I am a value!" #this is a variable of type string
