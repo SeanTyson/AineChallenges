@@ -12,10 +12,8 @@
 # Variables are data that you may or may not know the value of. They are stored in memory.
 # Think of them as a box containing a value, which has a name you can use to reference the value!
 
-'''
 i_am_a_variable = "I am a value!" #this is a variable of type string
 print(i_am_a_variable) # print is an inbuilt function in pythons standard library, it takes an argument of what to print to console! We can pass it variables or raw types
-'''
 
 # As it says on the tin - they can vary so you can change them dynamically.
 # A variables type refers to its "data type" the most basic of which are:
