@@ -25,4 +25,6 @@ B) Pass the input to a function you define that figures out which floor santa is
 C) Output which floor santa is on to the terminal
 
 Please review lesson1notes.py which should help you write a program to solve this puzzle. Keep the puzzle in mind while reading :)
+
+Please write the program underneath this block comment
 '''
