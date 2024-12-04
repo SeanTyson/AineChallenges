@@ -26,3 +26,14 @@ C) Output which floor santa is on to the terminal
 
 Please review lesson1notes.py which should help you write a program to solve this puzzle. Keep the puzzle in mind while reading :)
 '''
+
+floor = 0
+
+directions = input('Give Santa directions pls')
+
+for direction in directions:
+    if directions == "(":
+        floor = floor +1
+    if directions == ")":
+        floor = floor -1
+print(floor)
