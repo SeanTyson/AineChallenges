@@ -1,7 +1,7 @@
 import socket
 import threading
 
-HOST = "localhost"
+HOST = "35.179.138.206"
 PORT = 5050
 
 def receive_messages(client_socket):
@@ -25,7 +25,7 @@ def main():
 
     try:
         while True:
-            message = input("Enter a message: ")
+            message = input("Enter a message: \n")
             client_socket.sendall(message.encode('utf-8'))
     except KeyboardInterrupt:
         print("Disconnecting...")
