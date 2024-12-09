@@ -6,7 +6,7 @@ HOST = "0.0.0.0"
 PORT = 5050
 
 
-clients = []  s
+clients = []
 messages = []  
 messages_lock = threading.Lock()
 
